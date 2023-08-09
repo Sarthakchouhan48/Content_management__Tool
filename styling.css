@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Roboto:wght@300;400;500;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Caprasimo', cursive;
+    color: #243b55;
+    font-size: 48px;
+}
+
+.input-section {
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+
+.label-section {
+    text-decoration: wavy;
+    font-size: 0.5cm;
+    color: black;
+}
+
+.div-section {
+    height: 1cm;
+    border-radius: 8px;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.preview {
+    width: 15cm;
+    height: 15cm;
+}
+
+.video-preview {
+    width: 15cm;
+    height: auto;
+}
+
+.input-section label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.input-section input[type="text"],
+.input-section input[type="file"] {
+    width: 100%;
+}
+
+.button-section {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button-section button {
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    outline: none;
+    width: 10rem;
+    background-image: url("background.jpeg");
+    border: 1px solid;
+    box-shadow: 2px 2px 30px 10px #0000001c;
+    background-image: linear-gradient(to right, #19263d, #243b55);
+    color: white;
+    font-weight: bold;
+
+}
+
+.data-container {
+    max-height: 300px;
+    /* Adjust the height as needed */
+}
+
+.card {
+    margin: 2rem auto;
+    border: 1px solid grey;
+    border-radius: 8px;
+    padding: 2rem;
+    width: 80%;
+    /* background-image: url("background.jpeg"); */
+    background-image: linear-gradient(to right, #141e30, #243b55);
+    /* Replace with the path to yourimage */
+    background-size: cover;
+    background-position: center;
+    box-shadow: 2px 2px 30px 10px #8888882b;
+    color: white;
+}
+
+.card-header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 6px;
+    color: #141e30;
+}
+
+.card-title {
+    margin: 0;
+}
+
+.card-body {
+    margin-top: 10px;
+}
+
+.Neon {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #494949;
+    position: relative;
+
+
+}
+
+.Neon * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.Neon-input-dragDrop {
+    display: block;
+    width: 98%;
+    padding: 25px;
+    border-radius: 8px;
+    color: #97A1A8;
+    background: #fff;
+    text-align: center;
+    -webkit-transition: box-shadow 0.3s, border-color 0.3s;
+    -moz-transition: box-shadow 0.3s, border-color 0.3s;
+    transition: box-shadow 0.3s, border-color 0.3s;
+}
+
+.Neon-input-dragDrop .Neon-input-icon {
+    font-size: 48px;
+    margin-top: -10px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.Neon-input-text h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.Neon-input-text span {
+    font-size: 12px;
+}
+
+.Neon-input-choose-btn.blue {
+    color: #0a5ab6;
+    border: 1px solid#0a5ab6;
+}
+
+.Neon-input-choose-btn {
+    display: inline-block;
+    padding: 8px 14px;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 12px;
+    font-weight: bold;
+    color: #8d9496;
+    border-radius: 3px;
+    border: 1px solid #c6c6c6;
+    vertical-align: middle;
+    background-color: #fff;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.05);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+}
